@@ -9,7 +9,7 @@
 
 @implementation UIDevice (ModelExtension)
 
-+(NSString *)modelVersion{
+-(NSString *)modelVersion{
     struct utsname u;
 	uname(&u);
 	return [NSString stringWithFormat:@"%s", u.machine];

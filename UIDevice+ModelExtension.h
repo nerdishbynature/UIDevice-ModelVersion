@@ -12,6 +12,6 @@
  Returns the model Version of the UIDevice e.g. iPod1,1 iPod1,2 etc.
  @return model Version of the UIDevice e.g. iPod1,1 iPod1,2 etc.
  */
-+(NSString *)modelVersion;
+-(NSString *)modelVersion;
 
 @end
